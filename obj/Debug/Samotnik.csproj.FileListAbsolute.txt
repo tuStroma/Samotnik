@@ -1,0 +1,14 @@
+C:\StudiaCd\Sem_7\Programowanie_lokalnych_aplikacji_.NET\Samotnik\bin\Debug\Samotnik.exe.config
+C:\StudiaCd\Sem_7\Programowanie_lokalnych_aplikacji_.NET\Samotnik\bin\Debug\Samotnik.exe
+C:\StudiaCd\Sem_7\Programowanie_lokalnych_aplikacji_.NET\Samotnik\bin\Debug\Samotnik.pdb
+C:\StudiaCd\Sem_7\Programowanie_lokalnych_aplikacji_.NET\Samotnik\obj\Debug\Samotnik.csprojAssemblyReference.cache
+C:\StudiaCd\Sem_7\Programowanie_lokalnych_aplikacji_.NET\Samotnik\obj\Debug\MainWindow.g.cs
+C:\StudiaCd\Sem_7\Programowanie_lokalnych_aplikacji_.NET\Samotnik\obj\Debug\App.g.cs
+C:\StudiaCd\Sem_7\Programowanie_lokalnych_aplikacji_.NET\Samotnik\obj\Debug\Samotnik_MarkupCompile.cache
+C:\StudiaCd\Sem_7\Programowanie_lokalnych_aplikacji_.NET\Samotnik\obj\Debug\Samotnik_MarkupCompile.lref
+C:\StudiaCd\Sem_7\Programowanie_lokalnych_aplikacji_.NET\Samotnik\obj\Debug\MainWindow.baml
+C:\StudiaCd\Sem_7\Programowanie_lokalnych_aplikacji_.NET\Samotnik\obj\Debug\Samotnik.g.resources
+C:\StudiaCd\Sem_7\Programowanie_lokalnych_aplikacji_.NET\Samotnik\obj\Debug\Samotnik.Properties.Resources.resources
+C:\StudiaCd\Sem_7\Programowanie_lokalnych_aplikacji_.NET\Samotnik\obj\Debug\Samotnik.csproj.GenerateResource.cache
+C:\StudiaCd\Sem_7\Programowanie_lokalnych_aplikacji_.NET\Samotnik\obj\Debug\Samotnik.exe
+C:\StudiaCd\Sem_7\Programowanie_lokalnych_aplikacji_.NET\Samotnik\obj\Debug\Samotnik.pdb
