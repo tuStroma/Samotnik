@@ -172,7 +172,7 @@ namespace WpfApp1
                     {
                         if (clicked != null) clicked.button.Background = Brushes.Coral;
                         clicked = c;
-                        board[x, y].button.Background = Brushes.Red;
+                        c.button.Background = Brushes.Red;
                         break;
                     }
                 case BoardCellType.EMPTY:
@@ -191,7 +191,9 @@ namespace WpfApp1
                                     c.setType(BoardCellType.FULL);
                                     clicked.setType(BoardCellType.EMPTY);
                                     middle.setType(BoardCellType.EMPTY);
-                                    clicked = null;
+                                    clicked = c;
+                                    c.button.Background = Brushes.Red;
+
                                     int result = checkResult();
                                     return result;
                                 }
@@ -211,9 +213,9 @@ namespace WpfApp1
                                         BoardCellType.EMPTY };
 
 
-            for (int i = 0; i < width - pattern.Length + 1; i++)
+            for (int i = 0; i < width; i++)
             {
-                for (int j = 0; j < height - pattern.Length + 1; j++)
+                for (int j = 0; j < height; j++)
                 {
                     if (findHorisontal      (i, j, pattern)) return -1;
                     if (findHorisontal_b    (i, j, pattern)) return -1;
@@ -234,6 +236,9 @@ namespace WpfApp1
 
         private bool findHorisontal(int x, int y, BoardCellType[] pattern)
         {
+            if (x + pattern.Length - 1 >= width)
+                return false;
+
             for (int k = 0; k < pattern.Length; k++)
                 if (board[x + k, y].type != pattern[k])
                     return false;
@@ -241,6 +246,9 @@ namespace WpfApp1
         }
         private bool findHorisontal_b(int x, int y, BoardCellType[] pattern)
         {
+            if (x + pattern.Length - 1 >= width)
+                return false;
+
             for (int k = 0; k < pattern.Length; k++)
                 if (board[x + k, y].type != pattern[pattern.Length - k - 1])
                     return false;
@@ -248,6 +256,9 @@ namespace WpfApp1
         }
         private bool findVertical(int x, int y, BoardCellType[] pattern)
         {
+            if (y + pattern.Length - 1 >= height)
+                return false;
+
             for (int k = 0; k < pattern.Length; k++)
                 if (board[x, y + k].type != pattern[k])
                     return false;
@@ -255,6 +266,9 @@ namespace WpfApp1
         }
         private bool findVertical_b(int x, int y, BoardCellType[] pattern)
         {
+            if (y + pattern.Length - 1 >= height)
+                return false;
+
             for (int k = 0; k < pattern.Length; k++)
                 if (board[x, y + k].type != pattern[pattern.Length - k - 1])
                     return false;
